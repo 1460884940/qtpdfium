@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>data/pdf.pdf</file>
-        <file>data/password_test.pdf</file>
-    </qresource>
-</RCC>
