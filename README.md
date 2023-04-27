@@ -6,6 +6,8 @@
 
 ### 安装
 
+当找不到在什么地方进行 git 时，可以在QtCreator中项目编辑列表，单击鼠标右键，在此处打开终端（有时会提示权限不够，可以先切换用户 su ）
+
 ```
 git clone --recursive https://github.com/1460884940/qtpdfium
 cd qtpdfium
