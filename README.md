@@ -2,7 +2,7 @@
 
 在网上查找资源后决定使用QtPdium。QtPdfium 是一个 Qt 模块，它使用 google 的 pdfium 项目呈现 PDF 文件。它将 PDF 页面呈现为 QImage。
 
-由于本人项目是运行在Linux（Ubuntu）系统上，需要在项目中安装该库文件。
+由于本人项目是运行在Linux（Ubuntu）系统上，QT Creator版本为5.12.7 不包含该库，需要在项目中安装该库文件。
 
 ### 安装
 
