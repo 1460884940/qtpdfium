@@ -22,11 +22,11 @@ API 仅包含两个类：`QPdfium`和`QPdfiumPage`.
 
 在引用之前需要引用外部库
 
-![image-20230427094559291](https://img-blog.csdnimg.cn/8c94d2ba82da462ea6566ffe5d4f8ba9.png)
+![image-20230427094559291](./1.png)
 
-![image-20230427094512391](https://img-blog.csdnimg.cn/8766132a71824968b9e77a3858defd75.png)
+![image-20230427094512391](2.png)
 
-![image-20230427094644465](https://img-blog.csdnimg.cn/8b3fb4f2a712417db276fe00035e6ea0.png)
+![image-20230427094644465](../3.png)
 
 库文件添加完成后，要加载 PDF 文件，只需执行以下操作：
 
