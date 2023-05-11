@@ -22,11 +22,11 @@ API 仅包含两个类：`QPdfium`和`QPdfiumPage`.
 
 在引用之前需要引用外部库
 
-![image-20230427094559291](C:\Users\SongJZ\AppData\Roaming\Typora\typora-user-images\image-20230427094559291.png)
+![image-20230427094559291](https://img-blog.csdnimg.cn/8c94d2ba82da462ea6566ffe5d4f8ba9.png)
 
-![image-20230427094512391](C:\Users\SongJZ\AppData\Roaming\Typora\typora-user-images\image-20230427094512391.png)
+![image-20230427094512391](https://img-blog.csdnimg.cn/8766132a71824968b9e77a3858defd75.png)
 
-![image-20230427094644465](C:\Users\SongJZ\AppData\Roaming\Typora\typora-user-images\image-20230427094644465.png)
+![image-20230427094644465](https://img-blog.csdnimg.cn/8b3fb4f2a712417db276fe00035e6ea0.png)
 
 库文件添加完成后，要加载 PDF 文件，只需执行以下操作：
 
@@ -79,7 +79,7 @@ QString pageText = page.text();
 ```
 
 项目配置
-![image-20230427095541495](C:\Users\SongJZ\AppData\Roaming\Typora\typora-user-images\image-20230427095541495.png)
+![image-20230427095541495](https://img-blog.csdnimg.cn/6fbd9115f1ae48b1bc4fd7312cafe252.png)
 
 先将文件写出至项目部署运行文件夹，将文件用`QPdfium pdf("mypdf.pdf");`读取并转换成QImage ，然后将图片转换成base64编码格式的png图片，字符串拼接成html格式显示。
 
