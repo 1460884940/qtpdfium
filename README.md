@@ -24,9 +24,9 @@ API 仅包含两个类：`QPdfium`和`QPdfiumPage`.
 
 ![image-20230427094559291](./1.png)
 
-![image-20230427094512391](2.png)
+![image-20230427094512391](./2.png)
 
-![image-20230427094644465](../3.png)
+![image-20230427094644465](./3.png)
 
 库文件添加完成后，要加载 PDF 文件，只需执行以下操作：
 
@@ -79,7 +79,7 @@ QString pageText = page.text();
 ```
 
 项目配置
-![image-20230427095541495](https://img-blog.csdnimg.cn/6fbd9115f1ae48b1bc4fd7312cafe252.png)
+![image-20230427095541495](./4.png)
 
 先将文件写出至项目部署运行文件夹，将文件用`QPdfium pdf("mypdf.pdf");`读取并转换成QImage ，然后将图片转换成base64编码格式的png图片，字符串拼接成html格式显示。
 
